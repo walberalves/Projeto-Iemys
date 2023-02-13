@@ -1,0 +1,71 @@
+/* Configurações padrão da página */
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500;600;700;800;900 & display=swap');
+
+body, html{
+    margin: 0;
+    font: 16px "Poppins", sans-serif;
+    color: rgb(0, 70, 173);
+    height: 100%;
+
+}
+
+.conteudo{
+     color:rgb(255, 255, 255);
+     background-color: rgb(0, 70, 173);
+     text-align: justify;
+     padding: 50px 80px;
+     opacity: 0.8;
+     
+} 
+
+.conteudo p{
+	font-size: 20px;
+      text-align: center;
+
+}
+
+
+/* Parallax*/
+
+.caixa1, .caixa2{
+      position: relative;
+      height: 100%;
+      opacity: 0.8; 
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center;
+      background-attachment: fixed;
+
+}
+.caixa1{
+      background-image: url(./imagens/1-img.jpg);
+}
+
+.caixa2{
+      background-image: url(./imagens/2-img.jpg);
+}
+
+.conteudo-titulo{
+	position: relative;
+	margin: auto;
+	top: 45%;
+	text-align: center;
+      position: center;
+	
+}
+
+.conteudo-titulo, #span.titulo{
+	color: rgb(255, 255, 255);
+	background-color:;
+	opacity: 0.9;
+	padding: 18px;
+	font-size: 40px;
+	letter-spacing: 5px;
+	border-radius: 15px;
+	
+}
+
+/* Fim do Parallax */
+
+/* Desenvolvido por:  Walber Alves */
+
